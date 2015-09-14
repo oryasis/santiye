@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @worksite.name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @worksite.location %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @worksite.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @worksite.end_date %>
+</p>
+
+<p>
+  <strong>Budget:</strong>
+  <%= @worksite.budget %>
+</p>
+
+<%= link_to 'Edit', edit_worksite_path(@worksite) %> |
+<%= link_to 'Back', worksites_path %>
